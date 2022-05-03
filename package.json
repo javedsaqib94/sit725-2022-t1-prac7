@@ -1,0 +1,33 @@
+{
+  "name": "sit725-2022-t1-prac7",
+  "version": "1.0.0",
+  "description": "Week 7 Task Prac Sit-725 Sockets ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javedsaqib94/sit725-2022-t1-prac7.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javedsaqib94/sit725-2022-t1-prac7/issues"
+  },
+  "homepage": "https://github.com/javedsaqib94/sit725-2022-t1-prac7np#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "git": "^0.1.5",
+    "git-cli": "^0.11.0",
+    "mocha": "^9.2.2",
+    "mongodb": "^4.4.1",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2",
+    "url-parse": "^1.5.10"
+  }
+}
