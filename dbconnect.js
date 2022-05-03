@@ -1,5 +1,5 @@
 require('dotenv').config()
-const MongoClient = require("mongodb").MongoClient; // MongoClient class 
+const MongoClient = require("mongodb").MongoClient;  
 
 const uri = "mongodb+srv://"+process.env.mongodbUser+":"+process.env.mongodbPassword+"@malik.jxkgh.mongodb.net/Sit_725_prac4_2022?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true});
