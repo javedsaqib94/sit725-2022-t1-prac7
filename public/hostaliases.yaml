@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: malik-hostliases-pod
+  labels:
+    name: malik-hostliases-pod
+restartPolicy:    
+spec:
+  hostAliases:
+  - ip: "127.1.1.1"
+    hostnames:
+        - "do.local"
+        - "so.local"
+  - ip: "12.5.5.11"
+    hostnames:
+      - "do.remote"     
+      - "to.remote"     
+  containers:
+  - name: malik-hostliases-pod
+    image: busy
+    resources:
+      limits:
+        memory: "128Mi"
+        cpu: "500m"
+    
